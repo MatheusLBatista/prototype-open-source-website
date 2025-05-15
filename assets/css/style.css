@@ -51,6 +51,7 @@ main {
     border-radius: 10px;
     justify-content: space-between;
     height: 50px;
+    margin: 16px;
 }
 
 .icon {
@@ -62,7 +63,7 @@ main {
     display: flex;
     flex-direction: row;
     gap: 24px;
-    padding: 16px 0;
+    padding: 0px 16px 16px 16px;
     flex-wrap: wrap;
 }
 
@@ -77,14 +78,14 @@ main {
 
 .card-background > img{
     width: 30%;
-    margin: 10%;
+    margin: auto;
 }
 
 .card-background {
     display: flex;
-    background-color: #B6D5FF;
     justify-content: center;
     line-height: 185px;
+    height: 165px;
     border-radius: 10px 10px 0 0;
 }
 
@@ -92,7 +93,8 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0 10px;
-    margin-bottom: 48px;
+    margin-bottom: auto;
+    /* margin-bottom: 48px; */
 }
 
 .card-heading {
@@ -101,6 +103,7 @@ main {
 }
 
 .card-label {
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -136,7 +139,6 @@ button:hover{
     background-color: #1C73E8;
 }
 
-/* TODO: Adjust the background of the open source section */
 .open-source-section { 
     color: #F1F1F1;
     display: flex;
@@ -172,7 +174,6 @@ footer{
 .logos{
     display: flex;
     flex-direction: row;
-    /* margin: 24px 24px; */
     padding: 13px 0;
     gap: 32px;
     justify-content: space-evenly;
