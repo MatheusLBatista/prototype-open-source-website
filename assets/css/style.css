@@ -31,7 +31,7 @@ header {
 }
 
 main {
-    padding: 16px;
+    /* padding: 16px; */
     gap: 16px;
 }
 
@@ -164,3 +164,24 @@ button:hover{
     color: #EADD67CC;
 }
 
+footer{
+    background-color: black;
+    height: 94px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    /* margin: 24px 24px; */
+    padding: 13px 0;
+    gap: 32px;
+    justify-content: space-evenly;
+}
+
+.ifro-image{
+    height: 64px;
+}
+
+.fslab-image{
+    height: 64px;
+}
