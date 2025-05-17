@@ -57,12 +57,14 @@ main {
 .icon {
     display: inline-flex;
     margin: 8px;
+    cursor: pointer;
 }
 
 .card-gallery {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    justify-content: space-between;
     padding: 0px 16px 16px 16px;
     flex-wrap: wrap;
 }
@@ -94,6 +96,7 @@ main {
     flex-direction: column;
     margin: 0 10px;
     margin-bottom: auto;
+    cursor: pointer;
     /* margin-bottom: 48px; */
 }
 
@@ -122,6 +125,12 @@ main {
     border-radius: 4px;
 }
 
+.label:hover {
+    background-color: #5F6369;
+    color: #F1F1F1;
+    cursor: pointer;
+}
+
 button{
     color: #1C73E8;
     line-height: 35px;
@@ -132,6 +141,7 @@ button{
     font-weight: 700;
     font-size: 14px;
     margin-bottom: 16px;
+    cursor: pointer;
 }
 
 button:hover{
@@ -145,7 +155,7 @@ button:hover{
     flex-direction: column;
     gap: 40px;
     background-color: #202124;
-    padding: 40px 0; 
+    padding: 40px 16px; 
     line-height: 2rem;
 }
 
